@@ -4,8 +4,8 @@
 year = int(input("Enter year (four-digit number):"))
 
 century = year // 100
-if year%100 :
-    century +=1
+if year % 100:
+    century += 1
 print(f"century {century}")
 
 

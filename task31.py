@@ -16,5 +16,5 @@ reward_list = [('Иванов', 100), ('Петров', 200), ('Сидоров', 
 print(reward_list)
 reward_list.sort()
 print(reward_list)
-reward_list.sort(key = lambda element : element[-1],reverse=True)
+reward_list.sort(key=lambda element: element[-1], reverse=True)
 print(reward_list)

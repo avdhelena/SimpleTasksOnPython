@@ -8,4 +8,4 @@
 
 source_list = [1, 10, 21, 30]
 N = 16
-print(min(source_list, key = lambda x: abs(N-x)))
+print(min(source_list, key=lambda x: abs(N-x)))
